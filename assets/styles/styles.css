@@ -1,0 +1,416 @@
+/* .titulo-info{
+    color: black;
+} */
+
+.navegador{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.navegador{
+    background-color: rgba(20, 36, 255, 0.76);
+    padding: 0px;
+}
+
+.navegador > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navegador > ul > li{
+    position: relative;
+}
+
+.navegador > ul > li:hover ul{
+    display: block;
+}
+
+/* navegador bootstrap */
+
+.navbar{
+    background-color: cyan;
+    display: none;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+}
+
+/* .nav-link{
+    display: none;
+    position: absolute;
+
+} */
+
+
+
+.navegador  ul  li  a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+.navegador > ul > li > ul{
+    display: none;
+    position: absolute;
+    left: -30px;
+    background-color: rgba(20, 94, 255, 0.712);
+
+}
+
+.encabezado{
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+.encabezado-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    background-color: rgba(116, 116, 116, 0.377);
+    border-radius: 10%;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px 25px;
+    background-color: rgb(63, 20, 255);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+---------------------------------------------
+
+.tarjeta{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.tarjeta1:hover{
+    transform: scale(1.5);
+}
+
+.tarjeta2:hover{
+    transform: rotateZ(10deg);
+}
+
+.tarjeta3:hover{
+    transform: rotateX(50deg);
+}
+
+.tarjeta4:hover{
+    transform: scaleX(2);
+}
+
+.tarjeta5:hover{
+    transform: skew(5deg);
+}
+
+--------------------------------------------contacto
+
+.body{
+    background-image: url(../images/starts.jpg);
+    display: flex;
+}
+
+.kllk{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.info_contenedor{
+    background-color: beige;
+    width: 90px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1 px;
+    padding: 4px;
+}
+
+.info_contenedor{
+    display: center;
+}
+
+.enviar{
+    border-radius: 50 px;
+    
+}
+
+.info_contenedor{
+    width: 100px;
+    display: grid;
+    gap: 10 px;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.conten{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.conten.mes{
+    resize: none;
+    padding: 17px 16px;
+    margin-bottom: 16px;
+}
+
+.enviar{
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    padding: 17px 0px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+
+.form{
+    width: 340px;
+    height: 440px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin-top: 150px;
+    margin-bottom: 190px;
+    padding: 20px 30px;
+    max-width: calc(100vw -40px);
+    box-sizing: border-box;
+}
+
+.form h2{
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: grey;
+    border-bottom: 3px solid black;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+
+.input:focus{
+    border-bottom: 2px solid lightblue;
+}
+
+.parrafo{
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    color: grey;
+}
+
+.button{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid gray;
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black;
+    color:white
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    margin-left: 600px;
+    border-radius: 5px;
+    width: 100%;
+    height: 80vh;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.maps{
+    height: 80vh;
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframe {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.prod{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conte{
+    height: 50px;
+    width: 100px;
+    box-shadow: 0 0 7px #111;
+    margin: 0 30px;
+}
+
+.conte.card{
+    height: 200px;
+    width: 100px;
+    margin-bottom: 170px;
+}
+
+.card img{
+    margin: auto;
+    display: block;
+}
+
+.informacion{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+
+
+.imagenfondo {
+    width: 100%;
+    height: 100vh;
+}
+
+.subtitulo {
+    position: absolute;
+    bottom: 700px;
+    margin-left: 800px;
+    text-align: center;
+}
+
+.subtitulo h2 {
+    color: black;
+}
+
+.imagenfondo img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: absolute;
+    top: 250px;
+}
+
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    margin-top: 10px;
+}
+
+.logos i {
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.firmas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    color: black;
+    font-size: 20px;
+}
+
+.firmas h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firmas h2 {
+    font-weight: normal;
+    list-style: circle;
+}
+
+.firmas-caja {
+    text-align: center;
+    width: 30%;
+    box-shadow: 10px 10px 30px;
+    border-radius: 10%;
+}
+
+.fut{
+    background-image: url(../images/starts.jpg);
+}
